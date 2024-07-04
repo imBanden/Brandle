@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandle</title>
+    <link rel="stylesheet" href="wordle.css">
+</head>
+<body>
+    <h1 class="header">Brandle</h1>
+    <!--container for the game board-->
+    <div class="container">
+        <!--game board-->
+        <div class="game-board">
+            <!--first row-->
+            <div class="game-board-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!--second row-->
+            <div class="game-board-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!--third row-->
+            <div class="game-board-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!--forth row-->
+            <div class="game-board-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!--fifth row-->
+            <div class="game-board-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+            <!--sixth row-->
+            <div class="game-board-row">
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+                <div class="letter-box"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--on-screen keyboard-->
+    <div class="keyboard-container">
+        <!--first row of the keyboard-->
+        <div class="keyboard-row">
+            <button class="keyboard-button">Q</button>
+            <button class="keyboard-button">W</button>
+            <button class="keyboard-button">E</button>
+            <button class="keyboard-button">R</button>
+            <button class="keyboard-button">T</button>
+            <button class="keyboard-button">Y</button>
+            <button class="keyboard-button">U</button>
+            <button class="keyboard-button">I</button>
+            <button class="keyboard-button">O</button>
+            <button class="keyboard-button">P</button>
+        </div>
+        <!--second row of the keyboard-->
+        <div class="keyboard-row">
+            <div></div>
+            <button class="keyboard-button">A</button>
+            <button class="keyboard-button">S</button>
+            <button class="keyboard-button">D</button>
+            <button class="keyboard-button">F</button>
+            <button class="keyboard-button">G</button>
+            <button class="keyboard-button">H</button>
+            <button class="keyboard-button">J</button>
+            <button class="keyboard-button">K</button>
+            <button class="keyboard-button">L</button>
+           <div></div>
+        </div>
+        <!--third row of the keyboard-->
+        <div class="keyboard-row">
+            <button class="keyboard-button larger">ENTER</button>
+            <button class="keyboard-button">Z</button>
+            <button class="keyboard-button">X</button>
+            <button class="keyboard-button">C</button>
+            <button class="keyboard-button">V</button>
+            <button class="keyboard-button">B</button>
+            <button class="keyboard-button">N</button>
+            <button class="keyboard-button">M</button>
+            <button class="keyboard-button larger">⌫</button>
+        </div>
+    </div>
+
+    <!--not in word list warning message-->
+    <div class="warning"></div>
+
+    <!--Game Over message-->
+    <div class="game-over-box">
+        <div class="game-over">
+            <h1></h1>
+            <a href="wordle.html">
+                <button class="retry-button">🔃
+                </button>
+            </a>
+        </div>
+    </div>
+    <script src="wordle.js"></script>
+</body>
+</html>
